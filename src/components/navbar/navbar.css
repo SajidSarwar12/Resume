@@ -1,0 +1,40 @@
+nav{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    z-index: 99;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+    nav .link-wrap {
+        background: none;
+        height: 10vh;
+        max-width: 1200px;
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav .link-wrap div {
+        cursor: pointer;
+        font-size: 12pt;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 12px 20px;
+        text-transform: uppercase;
+        transition: color 0.5s;
+    }
