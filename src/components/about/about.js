@@ -11,7 +11,7 @@ export default (props) => {
     return (
 
         <div className="container flex">
-            <div className="header">ABOUT</div>
+            <div className="header">ABOUT Me</div>
             <div className="header-bar"></div>
             {/* about upper */}
             <div className="flex row label-wrap p-3">
