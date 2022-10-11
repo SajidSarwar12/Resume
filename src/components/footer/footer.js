@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../assets/styles/globalStyles.css';
 import './footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube, faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 
 
 
@@ -12,25 +15,25 @@ export default () => {
                <div className="icon-wrap flex row">
                    <a href="www.linkedin.com">
                        <div className="flex icon" id="icon-2">
-                           <i className="mdi mdi-linkedin"></i>
+                            <FontAwesomeIcon icon={faYoutube}/>
                        </div>
                    </a>
 
                    <a href="www.linkedin.com">
                        <div className="flex icon" id="icon-2">
-                           <i className="mdi mdi-linkedin"></i>
+                           <FontAwesomeIcon icon={faGithub}/>
                        </div>
                    </a>
 
                    <a href="www.linkedin.com">
                        <div className="flex icon" id="icon-2">
-                           <i className="mdi mdi-linkedin"></i>
+                            <FontAwesomeIcon icon={faLinkedin} white/>
                        </div>
                    </a>
 
                    <a href="www.linkedin.com">
                        <div className="flex icon" id="icon-2">
-                           <i className="mdi mdi-linkedin"></i>
+                            <FontAwesomeIcon icon={faFacebook}/>
                        </div>
                    </a>
                </div>

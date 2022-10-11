@@ -5,6 +5,12 @@ footer {
     position: relative;
 }
 
+.linkedin{
+    background-image: ('./../assets/images/linkedin-icon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .mdi {
     display: inline-block;
     font: normal normal normal 24px/1 "Material Design Icons";

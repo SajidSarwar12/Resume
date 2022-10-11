@@ -2,6 +2,7 @@
 import React from 'react';
 //import Typist from 'react-typist';
 import './banner.css';
+import './../../assets/styles/globalStyles.css';
 
 
 
