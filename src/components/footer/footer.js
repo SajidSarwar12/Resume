@@ -19,13 +19,13 @@ export default () => {
                        </div>
                    </a>
 
-                   <a href="www.linkedin.com">
+                   <a href="https://github.com/SajidSarwar12">
                        <div className="flex icon" id="icon-2">
                            <FontAwesomeIcon icon={faGithub}/>
                        </div>
                    </a>
 
-                   <a href="www.linkedin.com">
+                   <a href="https://www.linkedin.com/in/muhammad-sajid-sarwar-946a85182/">
                        <div className="flex icon" id="icon-2">
                             <FontAwesomeIcon icon={faLinkedin} white/>
                        </div>
@@ -40,7 +40,7 @@ export default () => {
                <div className="info-box">
                    <div className="footnote">
                        Sajid Sarwar 
-                       <span className="highlight">©2015</span>
+                       <span className="highlight">©2022</span>
                    </div>
                </div>
             </footer>

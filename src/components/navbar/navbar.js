@@ -4,7 +4,7 @@ import './navbar.css';
 
 export default()=>{
     return(
-        <nav className="flex desk">
+        <nav className="flex desk" >
             <div className="link-wrap">
                 <div className="page-link">Home</div>
                 <div className="page-link">About</div>

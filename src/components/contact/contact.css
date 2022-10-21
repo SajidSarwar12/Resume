@@ -43,3 +43,14 @@ section:nth-of-type(2) .button {
     padding: 10px 30px;
     border: 1px solid white;
 }
+
+div[role='alert'] {
+    color: red;
+    margin-top: 1em;
+  }
+
+  .message-chars-left {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+  }

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../assets/styles/globalStyles.css';
 import MeImage from '../../assets/images/me.png';
 import './about.css';
 
 
 export default (props) => {
-    let { userName, setUserName, data, setData, profileName, sajidCharsi } = props;
+    let {  setUserName, data, setData, profileName, sajidCharsi } = props;
 
 
     return (
@@ -38,7 +38,7 @@ I believe if your website is not ranking on 1st page of gogle, you dont need to 
             {/* about lower */}
             <div className="skills-wrapper flex row-gt-sm">
                 <div className="flex flex-50-gt-sm waypoint">
-                    <img src={MeImage} className="me"></img>
+                    <img src={MeImage} className="me" alt="myImage"></img>
                     <div className="label bold">Who's this guy?</div>
                     <div>I am a software engineer with 1.5 year of industry experience, After spending some time in industry and with thorough analysis of issues</div>
                 </div>
@@ -121,12 +121,12 @@ I believe if your website is not ranking on 1st page of gogle, you dont need to 
                 I am a software engineer with 1.5 year of industry experience, After spending some time in industry and with thorough analysis of issues being faced in the marlet, I decided to pursue Master in computer Science with a goal oriented research direction. I plan to undertake a research on the topic of "Smart Juries" which will transform the way penal proceeding are carried out now a days
                </p>
             <button onClick={() => {
-                //    setUserName("Profile Name updated to  ")
+                   setUserName("Profile Name updated to  ")
                 sajidCharsi()
-                // setData("")
+                 setData("sajid")
             }}>Save</button>
             {data}
-            {/* {profileName} */}
+            {profileName}
         </div>
     )
 }

@@ -16,10 +16,11 @@
    
    .bannerBackground{
        text-align: left;
+       color: #fff;
    }
    
    .bannerBackground .name{
-       color: Blue;
+       color: #61dafb;
    }
    
    
